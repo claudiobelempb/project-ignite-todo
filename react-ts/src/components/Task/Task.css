@@ -1,0 +1,35 @@
+.task__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--gray-500);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.task__container + .task__container {
+  margin-top: 0.8rem;
+}
+
+.task__container_input {
+  cursor: pointer;
+}
+
+.task__container_input:hover {
+  color: red;
+}
+
+.task__container_p {
+  padding-inline: 1rem;
+  width: 100%;
+}
+.task__btn_delete {
+  background-color: transparent;
+  border: none;
+}
+
+.task__btn_delete:hover {
+  background-color: var(--danger);
+  color: var(--danger);
+  border-radius: 0.5rem;
+}
